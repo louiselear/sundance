@@ -1,0 +1,46 @@
+/* navigation bar using div tag */
+*{
+  box-sizing: border-box;
+}
+.nav_div{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    padding-right:20px;
+    font-size: 1.2em;
+}
+.nav_div a {
+  float: left;
+  border-right: ridge 2px white;
+  border-left: ridge 2px white;
+  width: 21%;
+  color: white;
+  text-align: center;
+
+  padding: 20px;
+  text-decoration: none;
+}
+.nav_div a:hover{
+  background-color: orange;
+  font-size: 1.22em;
+  height: 60px;
+}
+/* Vertical Navigation tab */
+.navbar{
+ list-style-type: none;
+}
+.navbar li a {
+ display: block;
+ padding: 1em 1.5em;
+ color: white;
+ width: 35%;
+ background-color: purple;
+ text-decoration: none;
+ font-size: 1.2em;
+}
+/* Change the link color when is active*/
+.navbar li a:hover {
+ background-color: lightgray;
+ color: purple;
+ font-weight: 600;
+}
